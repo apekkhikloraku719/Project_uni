@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="register-style text-3xl">Registration Form</h1>
+    <form  action="process_registration.php" method="post">
+        <div class ="form-merg grid-cols-1" >
+
+            
+            <label  for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label  for="nickname">Nick Name:</label>
+            <input type="text" id="nickname" name="nickname"><br><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+            <label for="fatherName">Father's Name:</label>
+            <input type="text" id="fatherName" name="fatherName" required><br><br>
+
+            <label for="motherName">Mother's Name:</label>
+            <input type="text" id="motherName" name="motherName" required><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label for="Height">Height</label>
+            <input type="text" id="height" name="height" required><br><br>
+
+            <label for="weight">Weight</label>
+            <input type="text" id="wiught" name="weight" required><br><br>
+
+            <label for="physicalProblem">Physical Problems:</label><br>
+            <input type="checkbox" id="physicalProblem1" name="physicalProblem" value="Visual Impairment">
+            <label for="physicalProblem1">Visual Impairment</label><br>
+            <input type="checkbox" id="physicalProblem2" name="physicalProblem" value="Hearing Impairment">
+            <label for="physicalProblem2">Hearing Impairment</label><br>
+            <input type="checkbox" id="physicalProblem3" name="physicalProblem" value="Mobility Issues">
+            <label for="physicalProblem3">Mobility Issues</label><br>
+            <input type="checkbox" id="physicalProblem4" name="physicalProblem" value="Other">
+            <label for="physicalProblem4">Other</label><br><br>
+
+            <label for="Set Password">Set password</label>
+            <input type="text" id="password" name="password" required><br><br>
+
+            <label for="confirm Password">Confirm password</label>
+            <input type="text" id="password" name="password" required><br><br>
+
+
+            
+
+            <input class="text-blue-100 text-align:center" type="submit" value="Submit">
+       </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.back-ground{
+
+    background-color:#331832;
+}
+.card-margin-login{
+
+    margin:184px;
+}
+.card-background{
+    color: blueviolet;
+}
+.button2 {background-color:  #0000FF;}
+
+
+
+
+h1 {
+    color: #333;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+.register-style{
+    display: flex;
+    justify-content: center;
+}
+.form-merg{
+    margin: auto;
+    max-width: fit-content;
+}
+
+
+
+
+
